@@ -40,6 +40,8 @@ export default class SpaceCraftsScreen extends Component {
                     <Text style={{ fontWeight: 'bold', fontSize: 20, color: 'purple' }}>{item.name}</Text>
 
                        { <Text style={{ color: '#696969', fontSize: 16 }}>{item}</Text> } 
+
+                        //A 2ª opção seria a correta, pois faz referência oa item.name👍
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.name}</Text> */} 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency}</Text> */} 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency.name}</Text> */} 
